@@ -39,36 +39,32 @@
 ├── 03_VAJAR_INTEL_SYSTEMS        [ primary tools & investigation suite ]
 ├── 04_OPERATIONAL_ARSENAL        [ osint, forensics, languages, tools ]
 ├── 05_LOWLIGHTER_METRICS_HUD     [ dynamic github infographics & stats ]
-├── 06_INVESTIGATION_CASE_FILES   [ resolved operations & protocols ]
-├── 07_CREDENTIALS_AND_CLEARANCE  [ education, certs & career ]
-└── 08_INTERLINK_COMMAND_CENTER   [ official public nodes & contact ]
+├── 06_CONTRIBUTION_SNAKE         [ matrix contribution snake visualizer ]
+├── 07_INVESTIGATION_CASE_FILES   [ resolved operations & protocols ]
+├── 08_CREDENTIALS_AND_CLEARANCE  [ education, certs & career ]
+└── 09_INTERLINK_COMMAND_CENTER   [ official public nodes & contact ]
 ```
 
 ---
 
 ## 📟 01 // CYBER_TERMINAL_DOSSIER
 
-<div align="center">
+```bash
+┌──(root㉿TheCyberIndia)-[~/intel/profile]
+└─$ neofetch --investigation-mode
 
-```ansi
-[1;32m┌──([1;36mroot㉿TheCyberIndia[1;32m)-[[1;37m~/intel/profile[1;32m][0m
-[1;32m└─$[0m [1;33mneofetch --investigation-mode[0m
-
-[1;36m       .---.        [1;32mOS:[0m VAJAR-INTEL Cyber-OS x86_64
-[1;36m      /     \       [1;32mOPERATOR:[0m Hariom Singh [TheCyberIndia]
-[1;36m     | () () |      [1;32mROLE:[0m Cyber Crime Investigator & OSINT Specialist
-[1;36m      \  -  /       [1;32mEXPERTISE:[0m Cyber Threat Intelligence | Digital Forensics
-[1;36m       '---'        [1;32mFORMER:[0m CTO @ Invisintel Technologies Pvt. Ltd.
-[1;32m  .----------------.[1;32mLOCATION:[0m Uttar Pradesh, India 🇮🇳
-[1;32m /  THECYBERINDIA   \[1;32mALGORITHM:[0m Collect ➔ Correlate ➔ Analyze ➔ Unmask
-[1;32m'--------------------'[1;32mCLEARANCE:[0m Authorized Investigations | Sec 65B Compliant
-[0m
+       .---.         OS: VAJAR-INTEL Cyber-OS x86_64
+      /     \        OPERATOR: Hariom Singh [TheCyberIndia]
+     | () () |       ROLE: Cyber Crime Investigator & OSINT Specialist
+      \  -  /        EXPERTISE: Cyber Threat Intelligence | Digital Forensics
+       '---'         FORMER: CTO @ Invisintel Technologies Pvt. Ltd.
+  .----------------. LOCATION: Uttar Pradesh, India 🇮🇳
+ /  THECYBERINDIA   \ ALGORITHM: Collect ➔ Correlate ➔ Analyze ➔ Unmask
+'--------------------' CLEARANCE: Authorized Investigations | Sec 65B Compliant
 ```
 
-</div>
-
-> 🛡️ **OPERATIONAL DIRECTIVE:**
-> I am **Hariom Singh** (known across cyber networks as **TheCyberIndia**). I specialize in **Cybercrime Investigation, Cyber Intelligence, Open Source Intelligence (OSINT), and Digital Forensics**.
+> 🛡️ **OPERATIONAL DIRECTIVE:**  
+> I am **Hariom Singh** (known across cyber networks as **TheCyberIndia**). I specialize in **Cybercrime Investigation, Cyber Intelligence, Open Source Intelligence (OSINT), and Digital Forensics**.  
 > My mission is engineering intelligent investigation utilities that convert fragmented digital shadows, deceptive VPN/TOR proxies, and raw telecommunication records (CDR/IPDR) into **actionable, court-ready digital evidence**.
 
 ---
@@ -175,7 +171,7 @@ flowchart LR
 ![Shodan](https://img.shields.io/badge/Shodan-Network_Recon-D63031?style=flat-square&logo=shodan&logoColor=white)
 ![Autopsy](https://img.shields.io/badge/Autopsy-Disk_Forensics-0984E3?style=flat-square)
 ![Ghidra](https://img.shields.io/badge/Ghidra-Reverse_Engineering-E84393?style=flat-square)
-![Volatilty](https://img.shields.io/badge/Volatility-Memory_Forensics-6C5CE7?style=flat-square)
+![Volatility](https://img.shields.io/badge/Volatility-Memory_Forensics-6C5CE7?style=flat-square)
 
 ### 💻 PROGRAMMING & SYSTEM CRAFT
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -201,16 +197,9 @@ flowchart LR
 
 <div align="center">
 
-<!-- GITHUB TROPHIES (HACKER MATRIX THEME) -->
+<!-- LOWLIGHTER METRICS MAIN INFOGRAPHIC -->
 <a href="https://github.com/TheCyberIndia">
-  <img src="https://github-profile-trophy.vercel.app/?username=TheCyberIndia&theme=matrix&no-frame=true&row=1&column=7&margin-w=10" alt="Cyber Trophies" />
-</a>
-
-<br/><br/>
-
-<!-- GITHUB ACTIVITY RADAR / GRAPH -->
-<a href="https://github.com/TheCyberIndia">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TheCyberIndia&theme=matrix&color=00ff88&line=00e5ff&point=ffffff&area=true&hide_border=false&border=00e5ff&bg_color=04070f" width="95%" alt="Cyber Activity Graph" />
+  <img src="github-metrics.svg" width="100%" alt="lowlighter/metrics generated infographic" />
 </a>
 
 <br/><br/>
@@ -219,10 +208,10 @@ flowchart LR
 <table border="0" width="100%">
 <tr>
 <td align="center" width="50%">
-  <img src="https://github-readme-stats.vercel.app/api?username=TheCyberIndia&show_icons=true&theme=tokyonight&bg_color=04070f&border_color=00e5ff&title_color=00ff88&text_color=c8d6e5&icon_color=00e5ff&hide_border=false&rank_icon=github" width="98%" alt="Cyber Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=TheCyberIndia&show_icons=true&theme=tokyonight&bg_color=04070f&border_color=00e5ff&title_color=00ff88&text_color=c8d6e5&icon_color=00e5ff&hide_border=false" width="98%" alt="Cyber Stats" />
 </td>
 <td align="center" width="50%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheCyberIndia&layout=compact&theme=tokyonight&bg_color=04070f&border_color=00ff88&title_color=00e5ff&text_color=c8d6e5&hide_border=false" width="98%" alt="Top Languages" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=TheCyberIndia&layout=compact&theme=tokyonight&bg_color=04070f&border_color=00ff88&title_color=00e5ff&text_color=c8d6e5&hide_border=false" width="98%" alt="Top Languages" />
 </td>
 </tr>
 <tr>
@@ -232,40 +221,24 @@ flowchart LR
 </tr>
 </table>
 
-<br/>
+</div>
 
-<!-- LOWLIGHTER METRICS SHOWCASE -->
-<details open>
-<summary><b>📊 [ EXPAND HUD ] lowlighter/metrics — Advanced Hacker Infographics</b></summary>
-<br/>
+---
 
-> 💡 **Automated Metrics Engine:** Powered by `lowlighter/metrics` GitHub Actions. Computes real-time language distributions, coding habits, 3D isometric calendar, and deep repo telemetry.
+## 🐍 06 // CONTRIBUTION MATRIX SNAKE VISUALIZER
 
-```text
-┌─── LOWLIGHTER / METRICS TELEMETRY PROFILE ────────────────────────────────────┐
-│  • Engine: lowlighter/metrics v3.34+ (SVG Infographics Renderer)              │
-│  • Plugins: isocalendar, habits, languages, achievements, lines, follow-up   │
-│  • Palette: Cyberpunk Matrix (Dark Void / Electric Neon / Terminal Emerald)   │
-│  • Target: Hariom Singh [TheCyberIndia]                                      │
-└───────────────────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
 
-<img src="https://raw.githubusercontent.com/TheCyberIndia/TheCyberIndia/main/github-metrics.svg" onerror="this.src='https://github-readme-stats.vercel.app/api?username=TheCyberIndia&show_icons=true&theme=tokyonight&bg_color=04070f&border_color=00ff88&title_color=00e5ff&text_color=c8d6e5'" width="100%" alt="lowlighter/metrics generated infographic" />
-
-</details>
-
-<br/>
-
-<!-- DYNAMIC SNAKE ANIMATION -->
+<!-- ANIMATED MATRIX CONTRIBUTION SNAKE -->
 <a href="https://github.com/TheCyberIndia">
-  <img src="https://raw.githubusercontent.com/TheCyberIndia/TheCyberIndia/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Matrix Snake" onerror="this.style.display='none'" />
+  <img src="github-snake.svg" width="100%" alt="Contribution Matrix Snake" />
 </a>
 
 </div>
 
 ---
 
-## 🗂️ 06 // DECLASSIFIED CASE LOGS & INVESTIGATION PROTOCOLS
+## 🗂️ 07 // DECLASSIFIED CASE LOGS & INVESTIGATION PROTOCOLS
 
 <details>
 <summary><b>📂 [CASE_FILE #01] Financial Cyber Fraud & Phishing Syndicate</b></summary>
@@ -304,7 +277,7 @@ flowchart LR
 
 ---
 
-## 📜 07 // CREDENTIALS, CLEARANCE & BACKGROUND
+## 📜 08 // CREDENTIALS, CLEARANCE & BACKGROUND
 
 ### 🎓 Academic Trajectory
 * **Bachelor of Computer Applications (BCA)** — *Digvijay Nath P.G. College, Gorakhpur*
@@ -328,7 +301,7 @@ flowchart LR
 
 ---
 
-## 📡 08 // INTERLINK_COMMAND_CENTER
+## 📡 09 // INTERLINK_COMMAND_CENTER
 
 <div align="center">
 

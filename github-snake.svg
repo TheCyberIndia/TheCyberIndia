@@ -1,0 +1,553 @@
+<svg width="850" height="180" viewBox="0 0 850 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #04070f; rx: 12px; }
+      .border { fill: none; stroke: #00e5ff; stroke-width: 1.5; opacity: 0.4; }
+      .title { fill: #00ff88; font-family: 'Courier New', monospace; font-size: 13px; font-weight: bold; }
+      .subtitle { fill: #5a7599; font-family: 'Courier New', monospace; font-size: 10px; }
+      .dot-0 { fill: #0f172a; }
+      .dot-1 { fill: #0e4429; }
+      .dot-2 { fill: #006d32; }
+      .dot-3 { fill: #00ff88; }
+      .dot-4 { fill: #00e5ff; }
+      .snake-head { fill: #ff0055; filter: drop-shadow(0 0 4px #ff0055); }
+      .snake-body { fill: #00ff88; filter: drop-shadow(0 0 3px #00ff88); }
+    </style>
+  </defs>
+
+  <!-- CARD BACKGROUND -->
+  <rect width="850" height="180" class="bg" />
+  <rect x="1" y="1" width="848" height="178" class="border" rx="12" />
+
+  <!-- HEADER -->
+  <circle cx="24" cy="22" r="5" fill="#ff4757" />
+  <circle cx="40" cy="22" r="5" fill="#ffa502" />
+  <circle cx="56" cy="22" r="5" fill="#00ff88" />
+  <text x="75" y="26" class="title">THECYBERINDIA // CONTRIBUTION MATRIX SNAKE [SIMULATION]</text>
+  <text x="640" y="26" class="subtitle">STATUS: HUNTING DIGITAL TRACES</text>
+  <line x1="16" y1="36" x2="834" y2="36" stroke="#00e5ff" stroke-width="0.5" opacity="0.3" />
+
+  <!-- CONTRIBUTION GRID (52 WEEKS x 7 DAYS) -->
+  <g transform="translate(24, 48)">
+    <!-- Simulated contribution grid blocks -->
+    <!-- Week columns -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-2"/>
+    </g>
+    <g transform="translate(15, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-3"/>
+    </g>
+    <g transform="translate(30, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-1"/>
+    </g>
+    <g transform="translate(45, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(60, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-2"/>
+    </g>
+    <g transform="translate(75, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-0"/>
+    </g>
+    <g transform="translate(90, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-3"/>
+    </g>
+    <g transform="translate(105, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(120, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-2"/>
+    </g>
+    <g transform="translate(135, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-3"/>
+    </g>
+    <g transform="translate(150, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(165, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-1"/>
+    </g>
+    <g transform="translate(180, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-0"/>
+    </g>
+    <g transform="translate(195, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-2"/>
+    </g>
+    <g transform="translate(210, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(225, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-3"/>
+    </g>
+    <g transform="translate(240, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-2"/>
+    </g>
+    <g transform="translate(255, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-0"/>
+    </g>
+    <g transform="translate(270, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(285, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-1"/>
+    </g>
+    <g transform="translate(300, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-2"/>
+    </g>
+    <g transform="translate(315, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(330, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-1"/>
+    </g>
+    <g transform="translate(345, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-3"/>
+    </g>
+    <g transform="translate(360, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-2"/>
+    </g>
+    <g transform="translate(375, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(390, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-0"/>
+    </g>
+    <g transform="translate(405, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-2"/>
+    </g>
+    <g transform="translate(420, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(435, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-2"/>
+    </g>
+    <g transform="translate(450, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(465, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-3"/>
+    </g>
+    <g transform="translate(480, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-1"/>
+    </g>
+    <g transform="translate(495, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(510, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-1"/>
+    </g>
+    <g transform="translate(525, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-3"/>
+    </g>
+    <g transform="translate(540, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(555, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-2"/>
+    </g>
+    <g transform="translate(570, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-0"/>
+    </g>
+    <g transform="translate(585, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(600, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-2"/>
+    </g>
+    <g transform="translate(615, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(630, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-3"/>
+    </g>
+    <g transform="translate(645, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-0"/>
+    </g>
+    <g transform="translate(660, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-2"/>
+    </g>
+    <g transform="translate(675, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(690, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-3"/>
+    </g>
+    <g transform="translate(705, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-1"/>
+    </g>
+    <g transform="translate(720, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(735, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-0"/>
+    </g>
+    <g transform="translate(750, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(765, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-4"/>
+    </g>
+    <g transform="translate(780, 0)">
+      <rect x="0" y="0" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="15" width="11" height="11" rx="2" class="dot-2"/>
+      <rect x="0" y="30" width="11" height="11" rx="2" class="dot-1"/>
+      <rect x="0" y="45" width="11" height="11" rx="2" class="dot-3"/>
+      <rect x="0" y="60" width="11" height="11" rx="2" class="dot-4"/>
+      <rect x="0" y="75" width="11" height="11" rx="2" class="dot-0"/>
+      <rect x="0" y="90" width="11" height="11" rx="2" class="dot-3"/>
+    </g>
+
+    <!-- ANIMATED CYBER MATRIX SNAKE -->
+    <!-- Snake Head -->
+    <rect width="11" height="11" rx="3" class="snake-head">
+      <animate attributeName="x" values="15;105;225;375;525;690;780;600;450;300;150;15" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="y" values="15;45;75;15;60;30;75;90;45;15;60;15" dur="14s" repeatCount="indefinite" />
+    </rect>
+    <!-- Snake Body Segment 1 -->
+    <rect width="11" height="11" rx="2" class="snake-body" opacity="0.9">
+      <animate attributeName="x" values="0;90;210;360;510;675;765;585;435;285;135;0" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="y" values="15;45;75;15;60;30;75;90;45;15;60;15" dur="14s" repeatCount="indefinite" />
+    </rect>
+    <!-- Snake Body Segment 2 -->
+    <rect width="11" height="11" rx="2" class="snake-body" opacity="0.7">
+      <animate attributeName="x" values="0;75;195;345;495;660;750;570;420;270;120;0" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="y" values="0;45;75;15;60;30;75;90;45;15;60;0" dur="14s" repeatCount="indefinite" />
+    </rect>
+    <!-- Snake Body Segment 3 -->
+    <rect width="11" height="11" rx="2" class="snake-body" opacity="0.5">
+      <animate attributeName="x" values="0;60;180;330;480;645;735;555;405;255;105;0" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="y" values="0;30;75;15;60;30;75;75;45;15;60;0" dur="14s" repeatCount="indefinite" />
+    </rect>
+    <!-- Snake Tail -->
+    <rect width="11" height="11" rx="2" class="snake-body" opacity="0.3">
+      <animate attributeName="x" values="0;45;165;315;465;630;720;540;390;240;90;0" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="y" values="0;15;75;15;60;30;60;75;45;15;45;0" dur="14s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- FOOTER LEGEND -->
+  <g transform="translate(24, 158)">
+    <text x="0" y="10" class="subtitle">DECRYPTED ACTIVITY: 1,480+ INVESTIGATION TRACES</text>
+    <g transform="translate(680, 0)">
+      <text x="-40" y="10" class="subtitle">LESS</text>
+      <rect x="0" y="1" width="9" height="9" rx="2" class="dot-0" />
+      <rect x="14" y="1" width="9" height="9" rx="2" class="dot-1" />
+      <rect x="28" y="1" width="9" height="9" rx="2" class="dot-2" />
+      <rect x="42" y="1" width="9" height="9" rx="2" class="dot-3" />
+      <rect x="56" y="1" width="9" height="9" rx="2" class="dot-4" />
+      <text x="74" y="10" class="subtitle">MORE</text>
+    </g>
+  </g>
+</svg>
